@@ -94,7 +94,7 @@
             this.btnRollDice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRollDice.Name = "btnRollDice";
             this.btnRollDice.Size = new System.Drawing.Size(81, 57);
-            this.btnRollDice.TabIndex = 5;
+            this.btnRollDice.TabIndex = 0;
             this.btnRollDice.Text = "&Roll \r\nDice";
             this.btnRollDice.UseVisualStyleBackColor = true;
             this.btnRollDice.Click += new System.EventHandler(this.btnRollDice_Click);
@@ -115,7 +115,7 @@
             this.btnSwapNumbers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSwapNumbers.Name = "btnSwapNumbers";
             this.btnSwapNumbers.Size = new System.Drawing.Size(81, 57);
-            this.btnSwapNumbers.TabIndex = 8;
+            this.btnSwapNumbers.TabIndex = 1;
             this.btnSwapNumbers.Text = "&Swap Numbers";
             this.btnSwapNumbers.UseVisualStyleBackColor = true;
             this.btnSwapNumbers.Click += new System.EventHandler(this.btnSwapNumbers_Click);
@@ -151,9 +151,9 @@
             this.grpOneRoll.Controls.Add(this.btnRollDice);
             this.grpOneRoll.Controls.Add(this.label7);
             this.grpOneRoll.Location = new System.Drawing.Point(8, 70);
-            this.grpOneRoll.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpOneRoll.Margin = new System.Windows.Forms.Padding(2);
             this.grpOneRoll.Name = "grpOneRoll";
-            this.grpOneRoll.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpOneRoll.Padding = new System.Windows.Forms.Padding(2);
             this.grpOneRoll.Size = new System.Drawing.Size(268, 203);
             this.grpOneRoll.TabIndex = 9;
             this.grpOneRoll.TabStop = false;
@@ -165,7 +165,7 @@
             this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(81, 57);
-            this.btnClear.TabIndex = 9;
+            this.btnClear.TabIndex = 2;
             this.btnClear.Text = "&Clear \r\nOne Roll";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -174,10 +174,10 @@
             // 
             this.radOneRoll.AutoSize = true;
             this.radOneRoll.Location = new System.Drawing.Point(21, 23);
-            this.radOneRoll.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radOneRoll.Margin = new System.Windows.Forms.Padding(2);
             this.radOneRoll.Name = "radOneRoll";
             this.radOneRoll.Size = new System.Drawing.Size(111, 27);
-            this.radOneRoll.TabIndex = 10;
+            this.radOneRoll.TabIndex = 0;
             this.radOneRoll.TabStop = true;
             this.radOneRoll.Text = "One Roll";
             this.radOneRoll.UseVisualStyleBackColor = true;
@@ -188,9 +188,9 @@
             this.groupBox1.Controls.Add(this.radRollStats);
             this.groupBox1.Controls.Add(this.radOneRoll);
             this.groupBox1.Location = new System.Drawing.Point(8, 4);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(608, 54);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
@@ -200,10 +200,10 @@
             // 
             this.radRollStats.AutoSize = true;
             this.radRollStats.Location = new System.Drawing.Point(404, 23);
-            this.radRollStats.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radRollStats.Margin = new System.Windows.Forms.Padding(2);
             this.radRollStats.Name = "radRollStats";
             this.radRollStats.Size = new System.Drawing.Size(132, 27);
-            this.radRollStats.TabIndex = 11;
+            this.radRollStats.TabIndex = 1;
             this.radRollStats.TabStop = true;
             this.radRollStats.Text = "Mark Stats";
             this.radRollStats.UseVisualStyleBackColor = true;
@@ -223,9 +223,9 @@
             this.grpMarkStats.Controls.Add(this.label3);
             this.grpMarkStats.Controls.Add(this.nudNumber);
             this.grpMarkStats.Location = new System.Drawing.Point(281, 70);
-            this.grpMarkStats.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpMarkStats.Margin = new System.Windows.Forms.Padding(2);
             this.grpMarkStats.Name = "grpMarkStats";
-            this.grpMarkStats.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpMarkStats.Padding = new System.Windows.Forms.Padding(2);
             this.grpMarkStats.Size = new System.Drawing.Size(334, 203);
             this.grpMarkStats.TabIndex = 12;
             this.grpMarkStats.TabStop = false;
@@ -237,7 +237,7 @@
             this.btnReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(81, 57);
-            this.btnReset.TabIndex = 14;
+            this.btnReset.TabIndex = 3;
             this.btnReset.Text = "&Reset \r\nStats";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
@@ -248,7 +248,7 @@
             this.btnGenerate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(81, 57);
-            this.btnGenerate.TabIndex = 13;
+            this.btnGenerate.TabIndex = 1;
             this.btnGenerate.Text = "&Generate Numbers";
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
@@ -288,7 +288,7 @@
             this.lstMarks.FormattingEnabled = true;
             this.lstMarks.ItemHeight = 23;
             this.lstMarks.Location = new System.Drawing.Point(250, 15);
-            this.lstMarks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstMarks.Margin = new System.Windows.Forms.Padding(2);
             this.lstMarks.Name = "lstMarks";
             this.lstMarks.Size = new System.Drawing.Size(73, 165);
             this.lstMarks.TabIndex = 6;
@@ -324,12 +324,13 @@
             // 
             this.chkSeed.AutoSize = true;
             this.chkSeed.Location = new System.Drawing.Point(147, 19);
-            this.chkSeed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkSeed.Margin = new System.Windows.Forms.Padding(2);
             this.chkSeed.Name = "chkSeed";
             this.chkSeed.Size = new System.Drawing.Size(136, 27);
-            this.chkSeed.TabIndex = 2;
+            this.chkSeed.TabIndex = 0;
             this.chkSeed.Text = "Seed Value";
             this.chkSeed.UseVisualStyleBackColor = true;
+            this.chkSeed.CheckedChanged += new System.EventHandler(this.chkSeed_CheckedChanged);
             // 
             // label3
             // 
@@ -348,7 +349,7 @@
             0,
             0});
             this.nudNumber.Location = new System.Drawing.Point(70, 19);
-            this.nudNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudNumber.Margin = new System.Windows.Forms.Padding(2);
             this.nudNumber.Maximum = new decimal(new int[] {
             300,
             0,
@@ -371,8 +372,10 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.btnRollDice;
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnClear;
             this.ClientSize = new System.Drawing.Size(624, 283);
             this.Controls.Add(this.grpMarkStats);
             this.Controls.Add(this.groupBox1);
