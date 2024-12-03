@@ -63,20 +63,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 35);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(6, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 18);
+            this.label1.Size = new System.Drawing.Size(72, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dice 1:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 77);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(6, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 18);
+            this.label2.Size = new System.Drawing.Size(72, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Dice 2:";
             // 
@@ -84,19 +82,18 @@
             // 
             this.lblDice1.BackColor = System.Drawing.Color.MistyRose;
             this.lblDice1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDice1.Location = new System.Drawing.Point(119, 28);
-            this.lblDice1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDice1.Location = new System.Drawing.Point(82, 22);
             this.lblDice1.Name = "lblDice1";
-            this.lblDice1.Size = new System.Drawing.Size(59, 34);
+            this.lblDice1.Size = new System.Drawing.Size(41, 27);
             this.lblDice1.TabIndex = 2;
             this.lblDice1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRollDice
             // 
-            this.btnRollDice.Location = new System.Drawing.Point(7, 174);
-            this.btnRollDice.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnRollDice.Location = new System.Drawing.Point(5, 138);
+            this.btnRollDice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRollDice.Name = "btnRollDice";
-            this.btnRollDice.Size = new System.Drawing.Size(118, 72);
+            this.btnRollDice.Size = new System.Drawing.Size(81, 57);
             this.btnRollDice.TabIndex = 5;
             this.btnRollDice.Text = "&Roll \r\nDice";
             this.btnRollDice.UseVisualStyleBackColor = true;
@@ -106,19 +103,18 @@
             // 
             this.lblRollName.BackColor = System.Drawing.Color.LightSalmon;
             this.lblRollName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblRollName.Location = new System.Drawing.Point(156, 110);
-            this.lblRollName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRollName.Location = new System.Drawing.Point(107, 88);
             this.lblRollName.Name = "lblRollName";
-            this.lblRollName.Size = new System.Drawing.Size(217, 34);
+            this.lblRollName.Size = new System.Drawing.Size(149, 27);
             this.lblRollName.TabIndex = 7;
             this.lblRollName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnSwapNumbers
             // 
-            this.btnSwapNumbers.Location = new System.Drawing.Point(136, 174);
-            this.btnSwapNumbers.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnSwapNumbers.Location = new System.Drawing.Point(93, 138);
+            this.btnSwapNumbers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSwapNumbers.Name = "btnSwapNumbers";
-            this.btnSwapNumbers.Size = new System.Drawing.Size(118, 72);
+            this.btnSwapNumbers.Size = new System.Drawing.Size(81, 57);
             this.btnSwapNumbers.TabIndex = 8;
             this.btnSwapNumbers.Text = "&Swap Numbers";
             this.btnSwapNumbers.UseVisualStyleBackColor = true;
@@ -127,10 +123,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 119);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(6, 94);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 18);
+            this.label7.Size = new System.Drawing.Size(106, 23);
             this.label7.TabIndex = 4;
             this.label7.Text = "Roll Name:";
             // 
@@ -138,10 +133,9 @@
             // 
             this.lblDice2.BackColor = System.Drawing.Color.MistyRose;
             this.lblDice2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDice2.Location = new System.Drawing.Point(119, 69);
-            this.lblDice2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDice2.Location = new System.Drawing.Point(82, 55);
             this.lblDice2.Name = "lblDice2";
-            this.lblDice2.Size = new System.Drawing.Size(59, 34);
+            this.lblDice2.Size = new System.Drawing.Size(41, 27);
             this.lblDice2.TabIndex = 6;
             this.lblDice2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -156,19 +150,21 @@
             this.grpOneRoll.Controls.Add(this.lblRollName);
             this.grpOneRoll.Controls.Add(this.btnRollDice);
             this.grpOneRoll.Controls.Add(this.label7);
-            this.grpOneRoll.Location = new System.Drawing.Point(11, 88);
+            this.grpOneRoll.Location = new System.Drawing.Point(8, 70);
+            this.grpOneRoll.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpOneRoll.Name = "grpOneRoll";
-            this.grpOneRoll.Size = new System.Drawing.Size(390, 255);
+            this.grpOneRoll.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpOneRoll.Size = new System.Drawing.Size(268, 203);
             this.grpOneRoll.TabIndex = 9;
             this.grpOneRoll.TabStop = false;
             this.grpOneRoll.Text = "One Roll";
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(265, 174);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnClear.Location = new System.Drawing.Point(182, 138);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(118, 72);
+            this.btnClear.Size = new System.Drawing.Size(81, 57);
             this.btnClear.TabIndex = 9;
             this.btnClear.Text = "&Clear \r\nOne Roll";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -177,21 +173,25 @@
             // radOneRoll
             // 
             this.radOneRoll.AutoSize = true;
-            this.radOneRoll.Location = new System.Drawing.Point(30, 29);
+            this.radOneRoll.Location = new System.Drawing.Point(21, 23);
+            this.radOneRoll.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radOneRoll.Name = "radOneRoll";
-            this.radOneRoll.Size = new System.Drawing.Size(97, 22);
+            this.radOneRoll.Size = new System.Drawing.Size(111, 27);
             this.radOneRoll.TabIndex = 10;
             this.radOneRoll.TabStop = true;
             this.radOneRoll.Text = "One Roll";
             this.radOneRoll.UseVisualStyleBackColor = true;
+            this.radOneRoll.CheckedChanged += new System.EventHandler(this.radOneRoll_CheckedChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.radRollStats);
             this.groupBox1.Controls.Add(this.radOneRoll);
-            this.groupBox1.Location = new System.Drawing.Point(11, 6);
+            this.groupBox1.Location = new System.Drawing.Point(8, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(884, 68);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(608, 54);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select";
@@ -199,9 +199,10 @@
             // radRollStats
             // 
             this.radRollStats.AutoSize = true;
-            this.radRollStats.Location = new System.Drawing.Point(588, 29);
+            this.radRollStats.Location = new System.Drawing.Point(404, 23);
+            this.radRollStats.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radRollStats.Name = "radRollStats";
-            this.radRollStats.Size = new System.Drawing.Size(115, 22);
+            this.radRollStats.Size = new System.Drawing.Size(132, 27);
             this.radRollStats.TabIndex = 11;
             this.radRollStats.TabStop = true;
             this.radRollStats.Text = "Mark Stats";
@@ -221,19 +222,21 @@
             this.grpMarkStats.Controls.Add(this.chkSeed);
             this.grpMarkStats.Controls.Add(this.label3);
             this.grpMarkStats.Controls.Add(this.nudNumber);
-            this.grpMarkStats.Location = new System.Drawing.Point(409, 88);
+            this.grpMarkStats.Location = new System.Drawing.Point(281, 70);
+            this.grpMarkStats.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpMarkStats.Name = "grpMarkStats";
-            this.grpMarkStats.Size = new System.Drawing.Size(486, 255);
+            this.grpMarkStats.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpMarkStats.Size = new System.Drawing.Size(334, 203);
             this.grpMarkStats.TabIndex = 12;
             this.grpMarkStats.TabStop = false;
             this.grpMarkStats.Text = "Mark Stats";
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(214, 174);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnReset.Location = new System.Drawing.Point(147, 138);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(118, 72);
+            this.btnReset.Size = new System.Drawing.Size(81, 57);
             this.btnReset.TabIndex = 14;
             this.btnReset.Text = "&Reset \r\nStats";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -241,10 +244,10 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(47, 174);
-            this.btnGenerate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnGenerate.Location = new System.Drawing.Point(32, 138);
+            this.btnGenerate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(118, 72);
+            this.btnGenerate.Size = new System.Drawing.Size(81, 57);
             this.btnGenerate.TabIndex = 13;
             this.btnGenerate.Text = "&Generate Numbers";
             this.btnGenerate.UseVisualStyleBackColor = true;
@@ -254,10 +257,9 @@
             // 
             this.lblFail.BackColor = System.Drawing.Color.MistyRose;
             this.lblFail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblFail.Location = new System.Drawing.Point(121, 95);
-            this.lblFail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFail.Location = new System.Drawing.Point(83, 76);
             this.lblFail.Name = "lblFail";
-            this.lblFail.Size = new System.Drawing.Size(105, 34);
+            this.lblFail.Size = new System.Drawing.Size(72, 27);
             this.lblFail.TabIndex = 12;
             this.lblFail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -265,10 +267,9 @@
             // 
             this.lblPass.BackColor = System.Drawing.Color.MistyRose;
             this.lblPass.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblPass.Location = new System.Drawing.Point(121, 58);
-            this.lblPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPass.Location = new System.Drawing.Point(83, 46);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(105, 34);
+            this.lblPass.Size = new System.Drawing.Size(72, 27);
             this.lblPass.TabIndex = 11;
             this.lblPass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -276,58 +277,56 @@
             // 
             this.lblAverage.BackColor = System.Drawing.Color.MistyRose;
             this.lblAverage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblAverage.Location = new System.Drawing.Point(121, 133);
-            this.lblAverage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAverage.Location = new System.Drawing.Point(83, 105);
             this.lblAverage.Name = "lblAverage";
-            this.lblAverage.Size = new System.Drawing.Size(105, 34);
+            this.lblAverage.Size = new System.Drawing.Size(72, 27);
             this.lblAverage.TabIndex = 10;
             this.lblAverage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lstMarks
             // 
             this.lstMarks.FormattingEnabled = true;
-            this.lstMarks.ItemHeight = 18;
-            this.lstMarks.Location = new System.Drawing.Point(364, 19);
+            this.lstMarks.ItemHeight = 23;
+            this.lstMarks.Location = new System.Drawing.Point(250, 15);
+            this.lstMarks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstMarks.Name = "lstMarks";
-            this.lstMarks.Size = new System.Drawing.Size(105, 220);
+            this.lstMarks.Size = new System.Drawing.Size(73, 165);
             this.lstMarks.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 100);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(10, 79);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 18);
+            this.label6.Size = new System.Drawing.Size(47, 23);
             this.label6.TabIndex = 5;
             this.label6.Text = "Fail:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 63);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(10, 50);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 18);
+            this.label5.Size = new System.Drawing.Size(60, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = "Pass:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 137);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(10, 108);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 18);
+            this.label4.Size = new System.Drawing.Size(89, 23);
             this.label4.TabIndex = 3;
             this.label4.Text = "Average:";
             // 
             // chkSeed
             // 
             this.chkSeed.AutoSize = true;
-            this.chkSeed.Location = new System.Drawing.Point(214, 23);
+            this.chkSeed.Location = new System.Drawing.Point(147, 19);
+            this.chkSeed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkSeed.Name = "chkSeed";
-            this.chkSeed.Size = new System.Drawing.Size(118, 22);
+            this.chkSeed.Size = new System.Drawing.Size(136, 27);
             this.chkSeed.TabIndex = 2;
             this.chkSeed.Text = "Seed Value";
             this.chkSeed.UseVisualStyleBackColor = true;
@@ -335,10 +334,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 26);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(10, 21);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 18);
+            this.label3.Size = new System.Drawing.Size(71, 23);
             this.label3.TabIndex = 1;
             this.label3.Text = "Marks:";
             // 
@@ -349,7 +347,8 @@
             0,
             0,
             0});
-            this.nudNumber.Location = new System.Drawing.Point(102, 23);
+            this.nudNumber.Location = new System.Drawing.Point(70, 19);
+            this.nudNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nudNumber.Maximum = new decimal(new int[] {
             300,
             0,
@@ -361,7 +360,7 @@
             0,
             0});
             this.nudNumber.Name = "nudNumber";
-            this.nudNumber.Size = new System.Drawing.Size(87, 26);
+            this.nudNumber.Size = new System.Drawing.Size(60, 30);
             this.nudNumber.TabIndex = 0;
             this.nudNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudNumber.Value = new decimal(new int[] {
@@ -372,14 +371,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 356);
+            this.ClientSize = new System.Drawing.Size(624, 283);
             this.Controls.Add(this.grpMarkStats);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpOneRoll);
-            this.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lab 5 by ";

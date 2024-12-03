@@ -28,9 +28,13 @@ namespace Lab5
         private void Form1_Load(object sender, EventArgs e)
         {
             //select one roll radiobutton
-            
+            radOneRoll.Select();
+
             //add your name to end of form title
-            
+            this.Text = this.Text + "  - Sara Bustard";
+
+
+
         } // end form load
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -41,26 +45,34 @@ namespace Lab5
         private void btnReset_Click(object sender, EventArgs e)
         {
             //call the function
-            
+
         }
 
         private void btnRollDice_Click(object sender, EventArgs e)
         {
             int dice1, dice2;
             //call ftn RollDice, placing returned number into integers
-            
+
             //place integers into labels
-            
+
             // call ftn GetName sending total and returning name
 
             //display name in label
-            
+
         }
 
         /* Name: ClearOneRoll
         *  Sent: nothing
         *  Return: nothing
         *  Clear the labels */
+        private void ClearOneRoll()
+        {
+           lblDice1.ResetText();
+           lblDice2.ResetText();
+           lblRollName.ResetText();
+           
+
+         }
 
 
         /* Name: ClearStats
@@ -68,12 +80,27 @@ namespace Lab5
         *  Return: nothing
         *  Reset nud to minimum value, chkbox unselected, 
         *  clear labels and listbox */
+        private void ClearStats()
+        {
+            nudNumber.Value = nudNumber.Minimum;
+            chkSeed.Checked = false;
+            lblFail.ResetText();
+            lblPass.ResetText();
+            lblAverage.ResetText();
+            lstMarks.ResetText();
+
+        }
 
 
         /* Name: RollDice
         * Sent: nothing
         * Return: integer (1-6)
         * Simulates rolling one dice */
+        private int RollDice()
+        {
+            Random rand = new Random(); 
+            return rand.Next(1, 7);
+        }
 
 
         /* Name: GetName
@@ -89,6 +116,37 @@ namespace Lab5
         *        11 = Yo-leven
         *        12 = Boxcars
         * Anything else = No special name*/
+        private string GetName(int total)
+        {
+            switch(total)
+            {
+                case 2:
+                    return "Snake Eyes";
+
+                case 3:
+                    return "Little Joe";
+
+                case 5:
+                    return "Fever";
+
+                case 7:
+                    return "Most Common";
+
+                case 9:
+                    return "Center Feild";
+
+                case 11:
+                    return "Yo-leven";
+
+                case 12:
+                    return "Boxcars";
+
+                default:
+                    return "No Special Name";
+
+            }
+
+        }
 
         private void btnSwapNumbers_Click(object sender, EventArgs e)
         {
@@ -126,6 +184,20 @@ namespace Lab5
             // Format average always showing 2 decimal places 
 
         } // end Generate click
+
+        private void radOneRoll_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radOneRoll.Checked)
+            {
+                grpOneRoll.Visible = true;
+                grpMarkStats.Visible = false;
+            }
+            else
+            {
+                grpOneRoll.Visible = false;
+                grpMarkStats.Visible = true;
+            }
+        }
 
         /* Name: CalcStats
         * Sent: array and 2 integers
